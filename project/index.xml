@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Academic</title>
+    <link>https://example.com/project/</link>
+      <atom:link href="https://example.com/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Projects</title>
+      <link>https://example.com/project/</link>
+    </image>
+    
+    <item>
+      <title>Sangrahaka</title>
+      <link>https://example.com/project/sangrahaka/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/sangrahaka/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Sangrahaka&lt;/em&gt; is a web-based tool for annotating entities and
+relationships from text corpora towards construction of a knowledge graph
+and subsequent querying using templatized natural language questions.  The
+application is language and corpus agnostic, but can be tuned for specific
+needs of a language or a corpus.  The application is freely available for
+download and installation.  Besides having a user-friendly interface, it is
+fast, supports customization, and is fault tolerant on both client and
+server side.  It outperforms other annotation tools in an objective
+evaluation metric.  The framework has been successfully used in two
+annotation tasks.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
