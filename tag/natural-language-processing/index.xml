@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sanskrit | Hrishikesh</title>
-    <link>/tag/sanskrit/</link>
-      <atom:link href="/tag/sanskrit/index.xml" rel="self" type="application/rss+xml" />
-    <description>Sanskrit</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021, Hrishikesh Terdalkar.</copyright><lastBuildDate>Wed, 23 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <title>Natural Language Processing | Hrishikesh</title>
+    <link>/tag/natural-language-processing/</link>
+      <atom:link href="/tag/natural-language-processing/index.xml" rel="self" type="application/rss+xml" />
+    <description>Natural Language Processing</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021, Hrishikesh Terdalkar.</copyright><lastBuildDate>Thu, 23 May 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/icon_hube9c3e5f7a27217c9c8565129307f591_12218_512x512_fill_lanczos_center_3.png</url>
-      <title>Sanskrit</title>
-      <link>/tag/sanskrit/</link>
+      <title>Natural Language Processing</title>
+      <link>/tag/natural-language-processing/</link>
     </image>
-    
-    <item>
-      <title>Framework for Question-Answering in Sanskrit through Automated Construction of Knowledge Graphs</title>
-      <link>/publication/iscls2019/</link>
-      <pubDate>Wed, 23 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/iscls2019/</guid>
-      <description>&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
     
     <item>
       <title>Sanskrit Question Answering</title>

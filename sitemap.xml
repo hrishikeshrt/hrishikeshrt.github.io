@@ -2,71 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/publication-type/1/</loc>
+    <loc>/publication-type/1/</loc>
     <lastmod>2021-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/</loc>
+    <loc>/tag/annotation/</loc>
     <lastmod>2021-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tag/annotation/</loc>
+    <loc>/tag/graph-querying/</loc>
     <lastmod>2021-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/publication/iscls2019/</loc>
+    <loc>/</loc>
     <lastmod>2021-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tag/graph-querying/</loc>
+    <loc>/tag/knowledge-graph/</loc>
     <lastmod>2021-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tag/knowledge-graph/</loc>
+    <loc>/publication_types/</loc>
     <lastmod>2021-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/publication_types/</loc>
+    <loc>/publication/</loc>
     <lastmod>2021-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/publication/</loc>
+    <loc>/publication/fse2021/</loc>
     <lastmod>2021-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tag/question-answering/</loc>
+    <loc>/tag/software/</loc>
     <lastmod>2021-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/publication/fse2021/</loc>
+    <loc>/tags/</loc>
     <lastmod>2021-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tag/sanskrit/</loc>
-    <lastmod>2021-08-27T00:00:00+00:00</lastmod>
+    <loc>/tag/academic/</loc>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tag/software/</loc>
-    <lastmod>2021-08-27T00:00:00+00:00</lastmod>
+    <loc>/categories/</loc>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/</loc>
-    <lastmod>2021-08-27T00:00:00+00:00</lastmod>
+    <loc>/category/demo/</loc>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tag/academic/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>/post/</loc>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>/post/getting-started/</loc>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/category/demo/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>/project/annotation/</loc>
+    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>/project/</loc>
+    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/getting-started/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>/publication/iscls2019/</loc>
+    <lastmod>2019-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/project/annotation/</loc>
-    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+    <loc>/tag/question-answering/</loc>
+    <lastmod>2019-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/project/</loc>
-    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+    <loc>/tag/sanskrit/</loc>
+    <lastmod>2019-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/project/sanskrit/</loc>
+    <loc>/tag/natural-language-processing/</loc>
     <lastmod>2019-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/admin/</loc>
+    <loc>/project/sanskrit/</loc>
+    <lastmod>2019-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/event/</loc>
+    <loc>/admin/</loc>
+  </url><url>
+    <loc>/event/</loc>
   </url>
 </urlset>
