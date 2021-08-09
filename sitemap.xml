@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/talk/example-talk/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/event/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://example.com/publication-type/1/</loc>
     <lastmod>2021-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tag/annotation-tool/</loc>
+    <loc>https://example.com/</loc>
+    <lastmod>2021-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tag/annotation/</loc>
+    <lastmod>2021-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/publication/iscls2019/</loc>
+    <lastmod>2021-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tag/graph-querying/</loc>
     <lastmod>2021-08-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/tag/knowledge-graph/</loc>
@@ -26,10 +26,16 @@
     <loc>https://example.com/publication/</loc>
     <lastmod>2021-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tag/sangrahaka/</loc>
+    <loc>https://example.com/tag/question-answering/</loc>
     <lastmod>2021-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/publication/sangrahaka/</loc>
+    <loc>https://example.com/publication/fse2021/</loc>
+    <lastmod>2021-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tag/sanskrit/</loc>
+    <lastmod>2021-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tag/software/</loc>
     <lastmod>2021-08-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/</loc>
@@ -50,18 +56,17 @@
     <loc>https://example.com/post/getting-started/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/slides/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/slides/example/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <loc>https://example.com/project/annotation/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/project/sangrahaka/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <loc>https://example.com/project/sanskrit/</loc>
+    <lastmod>2019-05-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/admin/</loc>
+  </url><url>
+    <loc>https://example.com/event/</loc>
   </url>
 </urlset>

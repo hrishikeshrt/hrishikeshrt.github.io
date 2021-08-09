@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>Sangrahaka: A Tool for Annotating and Querying Knowledge Graphs</title>
-      <link>https://example.com/publication/sangrahaka/</link>
+      <title>Framework for Question-Answering in Sanskrit through Automated Construction of Knowledge Graphs</title>
+      <link>https://example.com/publication/iscls2019/</link>
       <pubDate>Fri, 27 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/sangrahaka/</guid>
+      <guid>https://example.com/publication/iscls2019/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -32,10 +32,29 @@
     </item>
     
     <item>
-      <title>Sangrahaka</title>
-      <link>https://example.com/project/sangrahaka/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/sangrahaka/</guid>
+      <title>Sangrahaka: A Tool for Annotating and Querying Knowledge Graphs</title>
+      <link>https://example.com/publication/fse2021/</link>
+      <pubDate>Fri, 27 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/fse2021/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Annotation for Knowledge Graphs</title>
+      <link>https://example.com/project/annotation/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/annotation/</guid>
       <description>&lt;p&gt;&lt;em&gt;Sangrahaka&lt;/em&gt; is a web-based tool for annotating entities and
 relationships from text corpora towards construction of a knowledge graph
 and subsequent querying using templatized natural language questions.  The
@@ -46,6 +65,16 @@ fast, supports customization, and is fault tolerant on both client and
 server side.  It outperforms other annotation tools in an objective
 evaluation metric.  The framework has been successfully used in two
 annotation tasks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sanskrit Question Answering</title>
+      <link>https://example.com/project/sanskrit/</link>
+      <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/sanskrit/</guid>
+      <description>&lt;p&gt;Sanskrit (&lt;em&gt;Saṃskṛta&lt;/em&gt;) enjoys one of the largest and most varied literature in the whole world. Extracting the knowledge from it, however, is a challenging task due to multiple reasons including complexity of the language and paucity of standard natural language processing tools.&lt;/p&gt;
+&lt;p&gt;In this project, we target the problem of building general purpose knowledge graphs (KG) from Sanskrit texts as well as building natural language question answering systems on top of the constructed KGs.&lt;/p&gt;
 </description>
     </item>
     

@@ -5,7 +5,7 @@
     <link>https://example.com/project/</link>
       <atom:link href="https://example.com/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>Sangrahaka</title>
-      <link>https://example.com/project/sangrahaka/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/sangrahaka/</guid>
+      <title>Annotation for Knowledge Graphs</title>
+      <link>https://example.com/project/annotation/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/annotation/</guid>
       <description>&lt;p&gt;&lt;em&gt;Sangrahaka&lt;/em&gt; is a web-based tool for annotating entities and
 relationships from text corpora towards construction of a knowledge graph
 and subsequent querying using templatized natural language questions.  The
@@ -27,6 +27,16 @@ fast, supports customization, and is fault tolerant on both client and
 server side.  It outperforms other annotation tools in an objective
 evaluation metric.  The framework has been successfully used in two
 annotation tasks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sanskrit Question Answering</title>
+      <link>https://example.com/project/sanskrit/</link>
+      <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/sanskrit/</guid>
+      <description>&lt;p&gt;Sanskrit (&lt;em&gt;Saṃskṛta&lt;/em&gt;) enjoys one of the largest and most varied literature in the whole world. Extracting the knowledge from it, however, is a challenging task due to multiple reasons including complexity of the language and paucity of standard natural language processing tools.&lt;/p&gt;
+&lt;p&gt;In this project, we target the problem of building general purpose knowledge graphs (KG) from Sanskrit texts as well as building natural language question answering systems on top of the constructed KGs.&lt;/p&gt;
 </description>
     </item>
     

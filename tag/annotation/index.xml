@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Annotation | Academic</title>
+    <link>https://example.com/tag/annotation/</link>
+      <atom:link href="https://example.com/tag/annotation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Annotation</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Annotation</title>
+      <link>https://example.com/tag/annotation/</link>
+    </image>
+    
+    <item>
+      <title>Sangrahaka: A Tool for Annotating and Querying Knowledge Graphs</title>
+      <link>https://example.com/publication/fse2021/</link>
+      <pubDate>Fri, 27 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/fse2021/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Annotation for Knowledge Graphs</title>
+      <link>https://example.com/project/annotation/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/annotation/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Sangrahaka&lt;/em&gt; is a web-based tool for annotating entities and
+relationships from text corpora towards construction of a knowledge graph
+and subsequent querying using templatized natural language questions.  The
+application is language and corpus agnostic, but can be tuned for specific
+needs of a language or a corpus.  The application is freely available for
+download and installation.  Besides having a user-friendly interface, it is
+fast, supports customization, and is fault tolerant on both client and
+server side.  It outperforms other annotation tools in an objective
+evaluation metric.  The framework has been successfully used in two
+annotation tasks.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
