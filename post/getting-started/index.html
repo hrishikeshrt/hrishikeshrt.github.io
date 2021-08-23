@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="Setting up a personal website using academic theme for hugo is really easy." />
+  <meta name="description" content="Setting up a personal academic portfolio using `Academic` theme for `Hugo` is really easy and results in an aesthetically pleasing website." />
 
   
   <link rel="alternate" hreflang="en-us" href="/post/getting-started/" />
@@ -268,7 +268,54 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K8M884SMXP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-K8M884SMXP', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
   
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+<script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MHCR4WL');
+</script>
+
 
   
 
@@ -310,8 +357,8 @@
   
   <meta property="og:site_name" content="Hrishikesh" />
   <meta property="og:url" content="/post/getting-started/" />
-  <meta property="og:title" content="Setting up a personal academic website | Hrishikesh" />
-  <meta property="og:description" content="Setting up a personal website using academic theme for hugo is really easy." /><meta property="og:image" content="/post/getting-started/featured.jpg" />
+  <meta property="og:title" content="Setting up a personal academic homepage | Hrishikesh" />
+  <meta property="og:description" content="Setting up a personal academic portfolio using `Academic` theme for `Hugo` is really easy and results in an aesthetically pleasing website." /><meta property="og:image" content="/post/getting-started/featured.jpg" />
     <meta property="twitter:image" content="/post/getting-started/featured.jpg" /><meta property="og:locale" content="en-us" />
   
     
@@ -346,7 +393,7 @@
     "@type": "WebPage",
     "@id": "/post/getting-started/"
   },
-  "headline": "Setting up a personal academic website",
+  "headline": "Setting up a personal academic homepage",
   
   "image": [
     "/post/getting-started/featured.jpg"
@@ -368,7 +415,7 @@
       "url": "/media/icon_hube9c3e5f7a27217c9c8565129307f591_12218_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Setting up a personal website using academic theme for hugo is really easy."
+  "description": "Setting up a personal academic portfolio using `Academic` theme for `Hugo` is really easy and results in an aesthetically pleasing website."
 }
 </script>
 
@@ -384,7 +431,7 @@
 
 
 
-  <title>Setting up a personal academic website | Hrishikesh</title>
+  <title>Setting up a personal academic homepage | Hrishikesh</title>
 </head>
 
 
@@ -737,7 +784,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>Setting up a personal academic website</h1>
+  <h1>Setting up a personal academic homepage</h1>
 
   
   <p class="page-subtitle">using <code>academic</code> theme for <code>hugo</code></p>
@@ -776,7 +823,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    3 min read
+    5 min read
   </span>
   
 
@@ -817,26 +864,40 @@
   <div class="article-container">
 
     <div class="article-style">
-      <h2 id="installation">Installation</h2>
+      <p>There are unlimited options available for building a personal homepage. One can find several options based on the purpose, aesthetics, technologies and difficulty.</p>
+<p>Some of the easiest options include Google Sites, WordPress etc. If one wants to have a bit more control and customizability, there are static site builders like Hugo, Jekyll, Gatsby, etc. which can be hosted on GitHub Pages, Netlify etc.
+For an academic portfolio, I found &ldquo;Hugo Academic&rdquo; to be perfect, both aesthetically and feature-wise.</p>
+<p>&ldquo;Hugo Academic&rdquo; comes with an easy deployment option to Netlify, which doesn&rsquo;t require the user to write any code. To deploy it to GitHub is not as straightforward and too many guides for too many versions might confuse a novice user. Here, I am listing down the steps I followed to setup this website.
+This, by no means, is the only way or the easiest way to setup the website, but it is to the point and it worked for me.</p>
 <h3 id="get-started-using-github-template">Get Started using GitHub Template</h3>
 <ul>
+<li><a href="https://gohugo.io/getting-started/installing/" target="_blank" rel="noopener">Install Hugo</a></li>
 <li>Go to &ldquo;Hugo Academic&rdquo; <a href="https://github.com/wowchemy/starter-hugo-academic" target="_blank" rel="noopener">Starter Template</a></li>
 <li>Click on <strong>Use this template</strong> to create a repository <code>www</code> (you may choose a different name)</li>
 <li>Clone your repository locally <code>git clone git@github.com:&lt;your-username&gt;/www.git www</code></li>
 <li><code>cd www</code></li>
 <li><code>git submodule update --init --recursive</code></li>
-<li>Create an empty repository <code>&lt;your-username&gt;.github.io</code> on GitHub, if you haven&rsquo;t already.</li>
-<li><code>git submodule add -f -b master git@github.com:&lt;your-username&gt;/&lt;your-username&gt;.github.io.git public</code></li>
+<li>Create an empty repository <code>&lt;your-username&gt;.github.io</code> on GitHub, if you haven&rsquo;t already.
+<ul>
+<li>Note: If you do not have GitHub premium, this must be a public repository in order to use GitHub Pages</li>
+<li>Set-up the GitHub Pages from repository settings.</li>
+</ul>
+</li>
+<li>Add the website repository as a submodule,
+<code>git submodule add -f -b master git@github.com:&lt;your-username&gt;/&lt;your-username&gt;.github.io.git public</code></li>
 <li>Edit content in the <code>content</code> directory</li>
 <li>Test locally, <code>hugo server</code></li>
-<li>Generate public pages, <code>hugo</code></li>
+<li>Generate public pages, <code>hugo</code>. This will generate the static website in the <code>public/</code> directory.</li>
+<li>Commit content to the submodule (website repository) first, <code>cd public</code>, <code>git add .</code> and <code>git commit -m &quot;Website&quot;</code></li>
 <li>Commit content to the base repository, <code>git add .</code> and <code>git commit -m &quot;Content&quot;</code></li>
-<li>Commit content to the public repository, <code>cd public</code>, <code>git add .</code> and <code>git commit -m &quot;Website&quot;</code></li>
 </ul>
 <h3 id="reference">Reference</h3>
 <p>Documentation: <a href="https://wowchemy.com/docs/" target="_blank" rel="noopener">https://wowchemy.com/docs/</a></p>
-<h2 id="original-instructions">Original Instructions</h2>
-<h3 id="overview">Overview</h3>
+<hr>
+<p>Following are the contents of the sample post that come with the installation.
+I am keeping them here since they contain useful and detailed instructions.</p>
+<h3 id="original-instructions">Original Instructions</h3>
+<h4 id="overview">Overview</h4>
 <ol>
 <li>The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site</li>
 <li>The template can be modified and customised to suit your needs. It&rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a <strong>no-code solution (write in Markdown and customize with YAML parameters)</strong> and having <strong>flexibility to later add even deeper personalization with HTML and CSS</strong></li>
@@ -862,19 +923,19 @@
   </div><figcaption>
       The template is mobile first with a responsive design to ensure that your site looks stunning on every device.
     </figcaption></figure>
-<h3 id="get-started">Get Started</h3>
+<h4 id="get-started">Get Started</h4>
 <ul>
-<li>👉 <a href="https://wowchemy.com/templates/" target="_blank" rel="noopener"><strong>Create a new site</strong></a></li>
-<li>📚 <a href="https://wowchemy.com/docs/" target="_blank" rel="noopener"><strong>Personalize your site</strong></a></li>
-<li>💬 <a href="https://discord.gg/z8wNYzb" target="_blank" rel="noopener">Chat with the <strong>Wowchemy community</strong></a> or <a href="https://discourse.gohugo.io" target="_blank" rel="noopener"><strong>Hugo community</strong></a></li>
-<li>🐦 Twitter: <a href="https://twitter.com/wowchemy" target="_blank" rel="noopener">@wowchemy</a> <a href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener">@GeorgeCushen</a> <a href="https://twitter.com/search?q=%28%23MadeWithWowchemy%20OR%20%23MadeWithAcademic%29&amp;src=typed_query" target="_blank" rel="noopener">#MadeWithWowchemy</a></li>
-<li>💡 <a href="https://github.com/wowchemy/wowchemy-hugo-modules/issues" target="_blank" rel="noopener">Request a <strong>feature</strong> or report a <strong>bug</strong> for <em>Wowchemy</em></a></li>
-<li>⬆️ <strong>Updating Wowchemy?</strong> View the <a href="https://wowchemy.com/docs/guide/update/" target="_blank" rel="noopener">Update Guide</a> and <a href="https://wowchemy.com/updates/" target="_blank" rel="noopener">Release Notes</a></li>
+<li><a href="https://wowchemy.com/templates/" target="_blank" rel="noopener"><strong>Create a new site</strong></a></li>
+<li><a href="https://wowchemy.com/docs/" target="_blank" rel="noopener"><strong>Personalize your site</strong></a></li>
+<li><a href="https://discord.gg/z8wNYzb" target="_blank" rel="noopener">Chat with the <strong>Wowchemy community</strong></a> or <a href="https://discourse.gohugo.io" target="_blank" rel="noopener"><strong>Hugo community</strong></a></li>
+<li>Twitter: <a href="https://twitter.com/wowchemy" target="_blank" rel="noopener">@wowchemy</a> <a href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener">@GeorgeCushen</a> <a href="https://twitter.com/search?q=%28%23MadeWithWowchemy%20OR%20%23MadeWithAcademic%29&amp;src=typed_query" target="_blank" rel="noopener">#MadeWithWowchemy</a></li>
+<li><a href="https://github.com/wowchemy/wowchemy-hugo-modules/issues" target="_blank" rel="noopener">Request a <strong>feature</strong> or report a <strong>bug</strong> for <em>Wowchemy</em></a></li>
+<li><strong>Updating Wowchemy?</strong> View the <a href="https://wowchemy.com/docs/guide/update/" target="_blank" rel="noopener">Update Guide</a> and <a href="https://wowchemy.com/updates/" target="_blank" rel="noopener">Release Notes</a></li>
 </ul>
-<h3 id="crowd-funded-open-source-software">Crowd-funded open-source software</h3>
+<h4 id="crowd-funded-open-source-software">Crowd-funded open-source software</h4>
 <p>To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.</p>
-<h4 id="-click-here-to-become-a-sponsor-and-help-support-wowchemys-future-httpswowchemycomplans"><a href="https://wowchemy.com/plans/" target="_blank" rel="noopener">❤️ Click here to become a sponsor and help support Wowchemy&rsquo;s future ❤️</a></h4>
-<p>As a token of appreciation for sponsoring, you can <strong>unlock <a href="https://wowchemy.com/plans/" target="_blank" rel="noopener">these</a> awesome rewards and extra features 🦄✨</strong></p>
+<h4 id="click-here-to-become-a-sponsor-and-help-support-wowchemys-futurehttpswowchemycomplans"><a href="https://wowchemy.com/plans/" target="_blank" rel="noopener">Click here to become a sponsor and help support Wowchemy&rsquo;s future</a></h4>
+<p>As a token of appreciation for sponsoring, you can <strong>unlock <a href="https://wowchemy.com/plans/" target="_blank" rel="noopener">these</a> awesome rewards and extra features</strong></p>
 <h3 id="ecosystem">Ecosystem</h3>
 <ul>
 <li><strong><a href="https://github.com/wowchemy/hugo-academic-cli" target="_blank" rel="noopener">Hugo Academic CLI</a>:</strong> Automatically import publications from BibTeX</li>
@@ -917,7 +978,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/academic/">Academic</a>
+  <a class="badge badge-light" href="/tag/academic/">academic</a>
   
 </div>
 
@@ -934,7 +995,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/post/getting-started/&amp;text=Setting%20up%20a%20personal%20academic%20website" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/post/getting-started/&amp;text=Setting%20up%20a%20personal%20academic%20homepage" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -947,7 +1008,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/post/getting-started/&amp;t=Setting%20up%20a%20personal%20academic%20website" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/post/getting-started/&amp;t=Setting%20up%20a%20personal%20academic%20homepage" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -960,7 +1021,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Setting%20up%20a%20personal%20academic%20website&amp;body=/post/getting-started/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Setting%20up%20a%20personal%20academic%20homepage&amp;body=/post/getting-started/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -973,7 +1034,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/post/getting-started/&amp;title=Setting%20up%20a%20personal%20academic%20website" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/post/getting-started/&amp;title=Setting%20up%20a%20personal%20academic%20homepage" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -986,7 +1047,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Setting%20up%20a%20personal%20academic%20website%20/post/getting-started/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Setting%20up%20a%20personal%20academic%20homepage%20/post/getting-started/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -999,7 +1060,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/post/getting-started/&amp;title=Setting%20up%20a%20personal%20academic%20website" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/post/getting-started/&amp;title=Setting%20up%20a%20personal%20academic%20homepage" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

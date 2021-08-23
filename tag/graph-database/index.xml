@@ -5,7 +5,7 @@
     <link>/tag/graph-database/</link>
       <atom:link href="/tag/graph-database/index.xml" rel="self" type="application/rss+xml" />
     <description>graph database</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021, Hrishikesh Terdalkar.</copyright><lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021, Hrishikesh Terdalkar.</copyright><lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/icon_hube9c3e5f7a27217c9c8565129307f591_12218_512x512_fill_lanczos_center_3.png</url>
       <title>graph database</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Knowledge Graphs</title>
       <link>/project/knowledge-graphs/</link>
-      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
       <guid>/project/knowledge-graphs/</guid>
       <description>&lt;h2 id=&#34;annotation&#34;&gt;Annotation&lt;/h2&gt;
 &lt;p&gt;One of the ways of constructing a knowledge graph is through manual annotation.
