@@ -8,9 +8,6 @@
     <loc>/tag/annotation/</loc>
     <lastmod>2021-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/graph-querying/</loc>
-    <lastmod>2021-08-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/</loc>
     <lastmod>2021-08-27T00:00:00+00:00</lastmod>
   </url><url>
@@ -23,6 +20,9 @@
     <loc>/publication/</loc>
     <lastmod>2021-08-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/tag/querying/</loc>
+    <lastmod>2021-08-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/publication/fse2021/</loc>
     <lastmod>2021-08-27T00:00:00+00:00</lastmod>
   </url><url>
@@ -31,6 +31,15 @@
   </url><url>
     <loc>/tags/</loc>
     <lastmod>2021-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/jnanasangraha/</loc>
+    <lastmod>2021-08-23T20:02:37+05:30</lastmod>
+  </url><url>
+    <loc>/project/</loc>
+    <lastmod>2021-08-23T20:02:37+05:30</lastmod>
+  </url><url>
+    <loc>/tag/sanskrit/</loc>
+    <lastmod>2021-08-23T20:02:37+05:30</lastmod>
   </url><url>
     <loc>/tag/academic/</loc>
     <lastmod>2021-08-09T00:00:00+00:00</lastmod>
@@ -47,19 +56,22 @@
     <loc>/post/getting-started/</loc>
     <lastmod>2021-08-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/annotation/</loc>
+    <loc>/tag/graph-database/</loc>
     <lastmod>2021-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/</loc>
+    <loc>/project/knowledge-graphs/</loc>
     <lastmod>2021-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication-type/0/</loc>
+    <lastmod>2019-10-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/iscls2019/</loc>
     <lastmod>2019-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/question-answering/</loc>
+    <loc>/publication/iscls2019demo/</loc>
     <lastmod>2019-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/sanskrit/</loc>
+    <loc>/tag/question-answering/</loc>
     <lastmod>2019-10-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tag/natural-language-processing/</loc>

@@ -1,16 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sanskrit | Hrishikesh</title>
+    <title>sanskrit | Hrishikesh</title>
     <link>/tag/sanskrit/</link>
       <atom:link href="/tag/sanskrit/index.xml" rel="self" type="application/rss+xml" />
-    <description>Sanskrit</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021, Hrishikesh Terdalkar.</copyright><lastBuildDate>Wed, 23 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <description>sanskrit</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021, Hrishikesh Terdalkar.</copyright><lastBuildDate>Mon, 23 Aug 2021 20:02:37 +0530</lastBuildDate>
     <image>
       <url>/media/icon_hube9c3e5f7a27217c9c8565129307f591_12218_512x512_fill_lanczos_center_3.png</url>
-      <title>Sanskrit</title>
+      <title>sanskrit</title>
       <link>/tag/sanskrit/</link>
     </image>
+    
+    <item>
+      <title>Jñānasaṅgrahaḥ</title>
+      <link>/project/jnanasangraha/</link>
+      <pubDate>Mon, 23 Aug 2021 20:02:37 +0530</pubDate>
+      <guid>/project/jnanasangraha/</guid>
+      <description>&lt;p&gt;The word &lt;strong&gt;Jñānasaṅgraha&lt;/strong&gt; (Devanagari: ज्ञानसङ्ग्रह) means &amp;lsquo;collection of knowledge&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;The Jñānasaṅgrahaḥ system is a platform developed at IIT Kanpur that hosts numerous applications related to Sanskrit.&lt;/p&gt;
+&lt;p&gt;It consists of the following components,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Saṅkhyāpaddhatiḥ (सङ्ख्यापद्धतिः)&lt;/strong&gt;, a collection of ancient Indian alpha-syllabic numeral systems.
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Kaṭapayādi Saṅkhyā&lt;/strong&gt;, a Kaṭapayādi encoding-decoding system.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Āryabhaṭīya Saṅkhyā&lt;/strong&gt;, an Āryabhaṭīya encoding-decoding system.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bhūtasaṅkhyā&lt;/strong&gt;, a Bhūtasaṅkhyā encoding-decoding system.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Chandojñānam (छन्दोज्ञानम्)&lt;/strong&gt;, a Sankrit prosodical meter identification system.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Varṇajñānam (वर्णज्ञानम्)&lt;/strong&gt;, a collection of utility functions related to Sanskrit alphabet.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Framework for Question-Answering in Sanskrit through Automated Construction of Knowledge Graphs</title>
@@ -19,6 +41,14 @@
       <guid>/publication/iscls2019/</guid>
       <description>&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>KaTaPaYadi System</title>
+      <link>/publication/iscls2019demo/</link>
+      <pubDate>Wed, 23 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/iscls2019demo/</guid>
+      <description></description>
     </item>
     
     <item>
