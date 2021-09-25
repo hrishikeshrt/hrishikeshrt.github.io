@@ -17,11 +17,10 @@
       <link>/post/getting-started/</link>
       <pubDate>Mon, 09 Aug 2021 00:00:00 +0000</pubDate>
       <guid>/post/getting-started/</guid>
-      <description>&lt;p&gt;There are unlimited options available for building a personal homepage. One can find several options based on the purpose, aesthetics, technologies and difficulty.&lt;/p&gt;
+      <description>&lt;p&gt;There are virtually unlimited options available for building a personal homepage. One can find several options based on the purpose, aesthetics, technologies and difficulty.&lt;/p&gt;
 &lt;p&gt;Some of the easiest options include Google Sites, WordPress etc. If one wants to have a bit more control and customizability, there are static site builders like Hugo, Jekyll, Gatsby, etc. which can be hosted on GitHub Pages, Netlify etc.
 For an academic portfolio, I found &amp;ldquo;Hugo Academic&amp;rdquo; to be perfect, both aesthetically and feature-wise.&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;Hugo Academic&amp;rdquo; comes with an easy deployment option to Netlify, which doesn&amp;rsquo;t require the user to write any code. To deploy it to GitHub is not as straightforward and too many guides for too many versions might confuse a novice user. Here, I am listing down the steps I followed to setup this website.
-This, by no means, is the only way or the easiest way to setup the website, but it is to the point and it worked for me.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Hugo Academic&amp;rdquo; comes with an easy deployment option to Netlify, which doesn&amp;rsquo;t require the user to write any code. To deploy it to GitHub is not as straightforward and too many guides for too many versions might confuse a novice user. Here, I am listing down the steps I followed to setup this website.&lt;/p&gt;
 &lt;h3 id=&#34;get-started-using-github-template&#34;&gt;Get Started using GitHub Template&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Install Hugo&lt;/a&gt;&lt;/li&gt;
