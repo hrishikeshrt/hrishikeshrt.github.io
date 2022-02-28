@@ -32,34 +32,58 @@
     <loc>/tags/</loc>
     <lastmod>2023-01-09T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2022-02-10T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>/tag/lexicon/</loc>
+    <lastmod>2022-01-28T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>/project/</loc>
+    <lastmod>2022-01-28T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>/project/pycdsl/</loc>
+    <lastmod>2022-01-28T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>/tag/python/</loc>
+    <lastmod>2022-02-10T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>/tag/software/</loc>
+    <lastmod>2022-02-10T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>/category/software/</loc>
+    <lastmod>2022-02-10T00:00:00+05:30</lastmod>
+  </url><url>
     <loc>/tag/querying/</loc>
     <lastmod>2021-08-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/fse2021/</loc>
     <lastmod>2021-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/software/</loc>
-    <lastmod>2021-08-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tag/academic/</loc>
-    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/</loc>
     <lastmod>2021-08-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/category/demo/</loc>
     <lastmod>2021-08-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/</loc>
+    <loc>/tag/homepage/</loc>
     <lastmod>2021-08-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/hugo/</loc>
+    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2022-02-10T00:00:00+05:30</lastmod>
   </url><url>
     <loc>/post/getting-started/</loc>
     <lastmod>2021-08-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/jnanasangraha/</loc>
-    <lastmod>2020-10-25T09:00:00+05:30</lastmod>
+    <loc>/post/google-ocr-using-drive-api/</loc>
+    <lastmod>2022-02-10T00:00:00+05:30</lastmod>
   </url><url>
-    <loc>/project/</loc>
+    <loc>/tag/ocr/</loc>
+    <lastmod>2022-02-10T00:00:00+05:30</lastmod>
+  </url><url>
+    <loc>/project/jnanasangraha/</loc>
     <lastmod>2020-10-25T09:00:00+05:30</lastmod>
   </url><url>
     <loc>/tag/graph-database/</loc>

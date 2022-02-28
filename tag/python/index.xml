@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python | Hrishikesh Terdalkar</title>
+    <link>/tag/python/</link>
+      <atom:link href="/tag/python/index.xml" rel="self" type="application/rss+xml" />
+    <description>python</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022, Hrishikesh Terdalkar.</copyright><lastBuildDate>Fri, 28 Jan 2022 00:00:00 +0530</lastBuildDate>
+    <image>
+      <url>/media/icon_hube9c3e5f7a27217c9c8565129307f591_12218_512x512_fill_lanczos_center_3.png</url>
+      <title>python</title>
+      <link>/tag/python/</link>
+    </image>
+    
+    <item>
+      <title>PyCDSL</title>
+      <link>/project/pycdsl/</link>
+      <pubDate>Fri, 28 Jan 2022 00:00:00 +0530</pubDate>
+      <guid>/project/pycdsl/</guid>
+      <description>&lt;p&gt;PyCDSL is a python interface to &lt;a href=&#34;https://www.sanskrit-lexicon.uni-koeln.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cologne Digital Sanskrit Lexicon (CDSL)&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Free software: GNU General Public License v3&lt;/li&gt;
+&lt;li&gt;Documentation: &lt;a href=&#34;https://pycdsl.readthedocs.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pycdsl.readthedocs.io&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;CDSL Corpus Management (Download, Update, Access)&lt;/li&gt;
+&lt;li&gt;Unified interface to access all dictionaries available at CDSL&lt;/li&gt;
+&lt;li&gt;Console command and REPL interface for easy dictionary search&lt;/li&gt;
+&lt;li&gt;Extensive support for transliteration using &lt;code&gt;indic-transliteration&lt;/code&gt; module&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+&lt;p&gt;PyCDSL can be used in a &lt;a href=&#34;https://pycdsl.readthedocs.io/en/latest/usage.html#using-pycdsl-in-a-project&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;python project&lt;/a&gt;, as a &lt;a href=&#34;https://pycdsl.readthedocs.io/en/latest/usage.html#using-console-interface-of-pycdsl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;console command&lt;/a&gt; and as an &lt;a href=&#34;https://pycdsl.readthedocs.io/en/latest/usage.html#using-repl-interface-of-pycdsl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;interactive REPL interface&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Google Drive OCR</title>
+      <link>/post/google-ocr-using-drive-api/</link>
+      <pubDate>Wed, 10 Feb 2021 00:00:00 +0530</pubDate>
+      <guid>/post/google-ocr-using-drive-api/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Free software: GNU General Public License v3&lt;/li&gt;
+&lt;li&gt;Documentation: &lt;a href=&#34;https://google-drive-ocr.readthedocs.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://google-drive-ocr.readthedocs.io&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Perform OCR using Google&amp;rsquo;s Drive API v3&lt;/li&gt;
+&lt;li&gt;Single, Batch and Parallel OCR&lt;/li&gt;
+&lt;li&gt;Work on a PDF document directly&lt;/li&gt;
+&lt;li&gt;Highly configurable CLI&lt;/li&gt;
+&lt;li&gt;Class &lt;code&gt;GoogleOCRApplication&lt;/code&gt; for use in python projects&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;:  One must setup a Google application and download &lt;code&gt;client_secrets.json&lt;/code&gt; file before using &lt;code&gt;google_drive_ocr&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a project on Google Cloud Platform&lt;/li&gt;
+&lt;li&gt;Wizard: &lt;a href=&#34;https://console.developers.google.com/start/api?id=drive&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://console.developers.google.com/start/api?id=drive&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;instructions&#34;&gt;Instructions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloud.google.com/genomics/downloading-credentials-for-api-access&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://cloud.google.com/genomics/downloading-credentials-for-api-access&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Select application type as &amp;ldquo;Installed Application&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Create credentials &amp;ldquo;OAuth consent screen&amp;rdquo; &amp;ndash;&amp;gt; &amp;ldquo;OAuth client ID&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Save &lt;code&gt;client_secret.json&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+&lt;h3 id=&#34;use-google_drive_ocr-in-a-project&#34;&gt;Use &lt;code&gt;google_drive_ocr&lt;/code&gt; in a Project&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from google_drive_ocr.application import GoogleOCRApplication
+app = GoogleOCRApplication(&#39;client_secret.json&#39;)
+# Single image
+app.perform_ocr(&#39;image.png&#39;)
+# Multiple images
+app.perform_batch_ocr([&#39;image_1.png&#39;, &#39;image_2.png&#39;, &#39;image_3.png&#39;])
+# Multiple Images using multiprocessing
+app.perform_batch_ocr([&#39;image_1.png&#39;, &#39;image_3.png&#39;, &#39;image_2.png&#39;], workers=2)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;use-google_drive_ocr-from-console&#34;&gt;Use &lt;code&gt;google_drive_ocr&lt;/code&gt; from Console&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;google-ocr --client-secret client_secret.json \
+--upload-folder-id &amp;lt;google-drive-folder-id&amp;gt;  \
+--image-dir images/ --extension .jpg \
+--workers 4 --no-keep
+
+# Save configuration and exit
+# If configuration is written to ~/.gdo.cfg, we don&#39;t have to specify those
+# options again on the subsequent runs
+google-ocr --client-secret client_secret.json --write-config ~/.gdo.cfg
+
+# Read configuration from a custom location (if it was written to a custom location)
+google-ocr --config ~/.my_config_file ..
+
+# Examples (assuming client-secret is saved in configuration file)
+# Single image
+google-ocr -i image.png
+
+# Multiple images
+google-ocr -b image_1.png image_2.png image_3.png
+
+# All files from a directory
+google-ocr --image-dir images/ --extension .png
+
+# Multiple images using multiprocessing
+google-ocr -b image_1.png image_2.png image_3.png --workers 2
+
+# PDF files
+google-ocr --pdf document.pdf --pages 1-3 5 7-10 13
+
+# For more detailed Usage
+google-ocr --help
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

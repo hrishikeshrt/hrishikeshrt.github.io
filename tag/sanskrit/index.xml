@@ -22,6 +22,28 @@
     </item>
     
     <item>
+      <title>PyCDSL</title>
+      <link>/project/pycdsl/</link>
+      <pubDate>Fri, 28 Jan 2022 00:00:00 +0530</pubDate>
+      <guid>/project/pycdsl/</guid>
+      <description>&lt;p&gt;PyCDSL is a python interface to &lt;a href=&#34;https://www.sanskrit-lexicon.uni-koeln.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cologne Digital Sanskrit Lexicon (CDSL)&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Free software: GNU General Public License v3&lt;/li&gt;
+&lt;li&gt;Documentation: &lt;a href=&#34;https://pycdsl.readthedocs.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pycdsl.readthedocs.io&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;CDSL Corpus Management (Download, Update, Access)&lt;/li&gt;
+&lt;li&gt;Unified interface to access all dictionaries available at CDSL&lt;/li&gt;
+&lt;li&gt;Console command and REPL interface for easy dictionary search&lt;/li&gt;
+&lt;li&gt;Extensive support for transliteration using &lt;code&gt;indic-transliteration&lt;/code&gt; module&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+&lt;p&gt;PyCDSL can be used in a &lt;a href=&#34;https://pycdsl.readthedocs.io/en/latest/usage.html#using-pycdsl-in-a-project&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;python project&lt;/a&gt;, as a &lt;a href=&#34;https://pycdsl.readthedocs.io/en/latest/usage.html#using-console-interface-of-pycdsl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;console command&lt;/a&gt; and as an &lt;a href=&#34;https://pycdsl.readthedocs.io/en/latest/usage.html#using-repl-interface-of-pycdsl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;interactive REPL interface&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Jñānasaṅgrahaḥ</title>
       <link>/project/jnanasangraha/</link>
       <pubDate>Sun, 25 Oct 2020 09:00:00 +0530</pubDate>
