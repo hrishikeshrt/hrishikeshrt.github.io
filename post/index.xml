@@ -133,12 +133,15 @@ I am keeping them here since they contain useful and detailed instructions.&lt;/
 &lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Perform OCR using Google&amp;rsquo;s Drive API v3&lt;/li&gt;
-&lt;li&gt;Single, Batch and Parallel OCR&lt;/li&gt;
-&lt;li&gt;Work on a PDF document directly&lt;/li&gt;
+&lt;li&gt;Class &lt;code&gt;GoogleOCRApplication()&lt;/code&gt; for use in projects&lt;/li&gt;
 &lt;li&gt;Highly configurable CLI&lt;/li&gt;
-&lt;li&gt;Class &lt;code&gt;GoogleOCRApplication&lt;/code&gt; for use in python projects&lt;/li&gt;
+&lt;li&gt;Run OCR on a single image file&lt;/li&gt;
+&lt;li&gt;Run OCR on multiple image files&lt;/li&gt;
+&lt;li&gt;Run OCR on all images in directory&lt;/li&gt;
+&lt;li&gt;Use multiple workers (&lt;code&gt;multiprocessing&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Work on a PDF document directly&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;:  One must setup a Google application and download &lt;code&gt;client_secrets.json&lt;/code&gt; file before using &lt;code&gt;google_drive_ocr&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: One must setup a Google application and download &lt;code&gt;client_secrets.json&lt;/code&gt; file before using &lt;code&gt;google_drive_ocr&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Create a project on Google Cloud Platform&lt;/li&gt;
@@ -152,48 +155,57 @@ I am keeping them here since they contain useful and detailed instructions.&lt;/
 &lt;li&gt;Save &lt;code&gt;client_secret.json&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
-&lt;h3 id=&#34;use-google_drive_ocr-in-a-project&#34;&gt;Use &lt;code&gt;google_drive_ocr&lt;/code&gt; in a Project&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from google_drive_ocr.application import GoogleOCRApplication
+&lt;h3 id=&#34;using-in-a-project&#34;&gt;Using in a Project&lt;/h3&gt;
+&lt;p&gt;Create a &lt;code&gt;GoogleOCRApplication&lt;/code&gt; application instance:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from google_drive_ocr import GoogleOCRApplication
+
 app = GoogleOCRApplication(&#39;client_secret.json&#39;)
-# Single image
-app.perform_ocr(&#39;image.png&#39;)
-# Multiple images
-app.perform_batch_ocr([&#39;image_1.png&#39;, &#39;image_2.png&#39;, &#39;image_3.png&#39;])
-# Multiple Images using multiprocessing
-app.perform_batch_ocr([&#39;image_1.png&#39;, &#39;image_3.png&#39;, &#39;image_2.png&#39;], workers=2)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;use-google_drive_ocr-from-console&#34;&gt;Use &lt;code&gt;google_drive_ocr&lt;/code&gt; from Console&lt;/h3&gt;
+&lt;p&gt;Perform OCR on a single image:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;app.perform_ocr(&#39;image.png&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Perform OCR on mupltiple images:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;app.perform_batch_ocr([&#39;image_1.png&#39;, &#39;image_2.png&#39;, &#39;image_3.png&#39;])
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Perform OCR on multiple images using multiple workers (&lt;code&gt;multiprocessing&lt;/code&gt;):&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;app.perform_batch_ocr([&#39;image_1.png&#39;, &#39;image_3.png&#39;, &#39;image_2.png&#39;], workers=2)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;using-command-line-interface&#34;&gt;Using Command Line Interface&lt;/h3&gt;
+&lt;p&gt;Typical usage with several options:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;google-ocr --client-secret client_secret.json \
 --upload-folder-id &amp;lt;google-drive-folder-id&amp;gt;  \
 --image-dir images/ --extension .jpg \
 --workers 4 --no-keep
-
-# Save configuration and exit
-# If configuration is written to ~/.gdo.cfg, we don&#39;t have to specify those
-# options again on the subsequent runs
-google-ocr --client-secret client_secret.json --write-config ~/.gdo.cfg
-
-# Read configuration from a custom location (if it was written to a custom location)
-google-ocr --config ~/.my_config_file ..
-
-# Examples (assuming client-secret is saved in configuration file)
-# Single image
-google-ocr -i image.png
-
-# Multiple images
-google-ocr -b image_1.png image_2.png image_3.png
-
-# All files from a directory
-google-ocr --image-dir images/ --extension .png
-
-# Multiple images using multiprocessing
-google-ocr -b image_1.png image_2.png image_3.png --workers 2
-
-# PDF files
-google-ocr --pdf document.pdf --pages 1-3 5 7-10 13
-
-# For more detailed Usage
-google-ocr --help
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Show help message with the full set of options:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;google-ocr --help
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;configuration&#34;&gt;Configuration&lt;/h4&gt;
+&lt;p&gt;The default location for configuration is &lt;code&gt;~/.gdo.cfg&lt;/code&gt;.
+If configuration is written to this location with a set of options,
+we don&amp;rsquo;t have to specify those options again on the subsequent runs.&lt;/p&gt;
+&lt;p&gt;Save configuration and exit:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;google-ocr --client-secret client_secret.json --write-config ~/.gdo.cfg
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Read configuration from a custom location (if it was written to a custom location):&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;google-ocr --config ~/.my_config_file ..
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;performing-ocr&#34;&gt;Performing OCR&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: It is assumed that the &lt;code&gt;client-secret&lt;/code&gt; option is saved in configuration file.&lt;/p&gt;
+&lt;p&gt;Single image file:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;google-ocr -i image.png
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Multiple image files:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;google-ocr -b image_1.png image_2.png image_3.png
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;All image files from a directory with a specific extension:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;google-ocr --image-dir images/ --extension .png
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Multiple workers (&lt;code&gt;multiprocessing&lt;/code&gt;):&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;google-ocr -b image_1.png image_2.png image_3.png --workers 2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;PDF files:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;google-ocr --pdf document.pdf --pages 1-3 5 7-10 13
 &lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
