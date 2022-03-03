@@ -1,47 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>software | Hrishikesh Terdalkar</title>
-    <link>/tag/software/</link>
-      <atom:link href="/tag/software/index.xml" rel="self" type="application/rss+xml" />
-    <description>software</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022, Hrishikesh Terdalkar.</copyright><lastBuildDate>Fri, 28 Jan 2022 00:00:00 +0530</lastBuildDate>
+    <title>google | Hrishikesh Terdalkar</title>
+    <link>/tag/google/</link>
+      <atom:link href="/tag/google/index.xml" rel="self" type="application/rss+xml" />
+    <description>google</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022, Hrishikesh Terdalkar.</copyright><lastBuildDate>Wed, 10 Feb 2021 00:00:00 +0530</lastBuildDate>
     <image>
       <url>/media/icon_hube9c3e5f7a27217c9c8565129307f591_12218_512x512_fill_lanczos_center_3.png</url>
-      <title>software</title>
-      <link>/tag/software/</link>
+      <title>google</title>
+      <link>/tag/google/</link>
     </image>
-    
-    <item>
-      <title>PyCDSL</title>
-      <link>/project/pycdsl/</link>
-      <pubDate>Fri, 28 Jan 2022 00:00:00 +0530</pubDate>
-      <guid>/project/pycdsl/</guid>
-      <description>&lt;p&gt;PyCDSL is a python interface to &lt;a href=&#34;https://www.sanskrit-lexicon.uni-koeln.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cologne Digital Sanskrit Lexicon (CDSL)&lt;/a&gt;.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Free software: GNU General Public License v3&lt;/li&gt;
-&lt;li&gt;Documentation: &lt;a href=&#34;https://pycdsl.readthedocs.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pycdsl.readthedocs.io&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;CDSL Corpus Management (Download, Update, Access)&lt;/li&gt;
-&lt;li&gt;Unified interface to access all dictionaries available at CDSL&lt;/li&gt;
-&lt;li&gt;Console command and REPL interface for easy dictionary search&lt;/li&gt;
-&lt;li&gt;Extensive support for transliteration using &lt;code&gt;indic-transliteration&lt;/code&gt; module&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
-&lt;p&gt;PyCDSL can be used in a &lt;a href=&#34;https://pycdsl.readthedocs.io/en/latest/usage.html#using-pycdsl-in-a-project&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;python project&lt;/a&gt;, as a &lt;a href=&#34;https://pycdsl.readthedocs.io/en/latest/usage.html#using-console-interface-of-pycdsl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;console command&lt;/a&gt; and as an &lt;a href=&#34;https://pycdsl.readthedocs.io/en/latest/usage.html#using-repl-interface-of-pycdsl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;interactive REPL interface&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Sangrahaka: A Tool for Annotating and Querying Knowledge Graphs</title>
-      <link>/publication/fse2021/</link>
-      <pubDate>Fri, 27 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/fse2021/</guid>
-      <description>&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
     
     <item>
       <title>Google Drive OCR</title>
@@ -134,60 +103,6 @@ we don&amp;rsquo;t have to specify those options again on the subsequent runs.&l
 &lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;google-ocr --pdf document.pdf --pages 1-3 5 7-10 13
 &lt;/code&gt;&lt;/pre&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Knowledge Graphs</title>
-      <link>/project/knowledge-graphs/</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/project/knowledge-graphs/</guid>
-      <description>&lt;h2 id=&#34;annotation&#34;&gt;Annotation&lt;/h2&gt;
-&lt;p&gt;One of the ways of constructing a knowledge graph is through manual annotation.
-Languages whose state-of-the-art of NLP is not advanced enough for automatic construction often have to rely on the manual annotation. Benefits of annotation
-include the accuracy and reliability of data, construction of datasets which further help the research in the field of automatic construction of knowledge graphs, etc.&lt;/p&gt;
-&lt;h3 id=&#34;sangrahaka&#34;&gt;Sangrahaka&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Sangrahaka&lt;/em&gt; is a web-based tool for annotating entities and
-relationships from text corpora towards construction of a knowledge graph
-and subsequent querying using templatized natural language questions. It is a language and corpus agnostic tool.  Salient features of the tool include an interface for annotation of entities and relationships, and an interface for querying using templatized natural language queries. The tool is also equipped with an administrators’ interface for managing user access levels, uploading corpora and ontology creation. There are utility scripts for language-specific or corpus-specific needs. The tool can be deployed on the web for distributed annotation by multiple annotators. Besides having a user-friendly interface, it is
-fast, supports customization, and is fault-tolerant on both client and
-server side. No programming knowledge is expected from an annotator.&lt;/p&gt;
-&lt;p&gt;The tool has been used in real-world annotation tasks and has received generally positive reviews.&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-word-art-of-the-comments-received-in-a-survey-of-sangrahaka&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Word-art of the comments received in a survey of *Sangrahaka*&#34; srcset=&#34;
-               /project/knowledge-graphs/wordcloud_hu7bb6a74af19100a90191b4475bc66fb6_140264_e38cf851d86c57599b96315c7a57a14a.png 400w,
-               /project/knowledge-graphs/wordcloud_hu7bb6a74af19100a90191b4475bc66fb6_140264_7f177dd9bf93e21cf5abea1a8fb1b167.png 760w,
-               /project/knowledge-graphs/wordcloud_hu7bb6a74af19100a90191b4475bc66fb6_140264_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;/project/knowledge-graphs/wordcloud_hu7bb6a74af19100a90191b4475bc66fb6_140264_e38cf851d86c57599b96315c7a57a14a.png&#34;
-               width=&#34;760&#34;
-               height=&#34;382&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      Word-art of the comments received in a survey of &lt;em&gt;Sangrahaka&lt;/em&gt;
-    &lt;/figcaption&gt;&lt;/figure&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>KaTaPaYadi System</title>
-      <link>/publication/iscls2019demo/</link>
-      <pubDate>Wed, 23 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/iscls2019demo/</guid>
-      <description></description>
     </item>
     
   </channel>

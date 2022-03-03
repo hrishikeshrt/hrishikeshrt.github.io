@@ -36,9 +36,9 @@
     
     <item>
       <title>Google Drive OCR</title>
-      <link>/post/google-ocr-using-drive-api/</link>
+      <link>/post/perform-ocr-using-google-drive-api/</link>
       <pubDate>Wed, 10 Feb 2021 00:00:00 +0530</pubDate>
-      <guid>/post/google-ocr-using-drive-api/</guid>
+      <guid>/post/perform-ocr-using-google-drive-api/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Free software: GNU General Public License v3&lt;/li&gt;
 &lt;li&gt;Documentation: &lt;a href=&#34;https://google-drive-ocr.readthedocs.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://google-drive-ocr.readthedocs.io&lt;/a&gt;.&lt;/li&gt;
@@ -54,6 +54,10 @@
 &lt;li&gt;Use multiple workers (&lt;code&gt;multiprocessing&lt;/code&gt;)&lt;/li&gt;
 &lt;li&gt;Work on a PDF document directly&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
+&lt;p&gt;To install Google OCR (Drive API v3), run this command in your terminal:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;pip install google-drive-ocr
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: One must setup a Google application and download &lt;code&gt;client_secrets.json&lt;/code&gt; file before using &lt;code&gt;google_drive_ocr&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
 &lt;ul&gt;
