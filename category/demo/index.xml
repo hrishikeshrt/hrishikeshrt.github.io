@@ -72,13 +72,11 @@ It should further be noted that we can define new font families and new commands
 \newcommand{\IAST}[1]{{\textiast{#1}}}
 
 \title{Transliteration of Devanagari Text}
-
 \author{Hrishikesh Terdalkar}
 
 \begin{document}
 
 \maketitle
-
 
 \skt{को न्वस्मिन् साम्प्रतं लोके गुणवान् कश्च वीर्यवान्।}
 
@@ -345,8 +343,8 @@ clean:
 &lt;p&gt;The &lt;a href=&#34;#extras&#34;&gt;extras&lt;/a&gt; have some more dependencies.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.bibtex.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BibTeX&lt;/a&gt; (optional) (bibliography support)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://ctan.org/pkg/latexpand?lang=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;latexpand&lt;/a&gt; (optional) (resolve &lt;code&gt;\input{}&lt;/code&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://mg.readthedocs.io/latexmk.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;latexmk&lt;/a&gt; (optional) (simpler TeX compilation)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ctan.org/pkg/latexpand?lang=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;latexpand&lt;/code&gt;&lt;/a&gt; (optional) (resolve &lt;code&gt;\input{}&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mg.readthedocs.io/latexmk.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;latexmk&lt;/code&gt;&lt;/a&gt; (optional) (simpler TeX compilation)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;devanagari-fonts&#34;&gt;Devanagari Fonts&lt;/h2&gt;
 &lt;p&gt;Nowadays, there are several good Devanagari fonts available. Google Fonts also provides a &lt;a href=&#34;https://fonts.google.com/?subset=devanagari&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wide variety of Devanagari fonts&lt;/a&gt;.&lt;/p&gt;
