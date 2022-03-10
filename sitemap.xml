@@ -33,7 +33,25 @@
     <lastmod>2023-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2022-03-03T00:00:00+05:30</lastmod>
+    <lastmod>2022-03-08T16:30:00+05:30</lastmod>
+  </url><url>
+    <loc>/category/demo/</loc>
+    <lastmod>2022-03-08T16:30:00+05:30</lastmod>
+  </url><url>
+    <loc>/tag/devanagari/</loc>
+    <lastmod>2022-03-08T16:30:00+05:30</lastmod>
+  </url><url>
+    <loc>/post/devanagari-transliteration-in-latex/</loc>
+    <lastmod>2022-03-08T16:30:00+05:30</lastmod>
+  </url><url>
+    <loc>/tag/latex/</loc>
+    <lastmod>2022-03-08T16:30:00+05:30</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2022-03-08T16:30:00+05:30</lastmod>
+  </url><url>
+    <loc>/tag/transliteration/</loc>
+    <lastmod>2022-03-08T16:30:00+05:30</lastmod>
   </url><url>
     <loc>/tag/lexicon/</loc>
     <lastmod>2022-01-28T00:00:00+05:30</lastmod>
@@ -62,17 +80,11 @@
     <loc>/tag/academic/</loc>
     <lastmod>2021-08-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/category/demo/</loc>
-    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tag/homepage/</loc>
     <lastmod>2021-08-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tag/hugo/</loc>
     <lastmod>2021-08-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/post/</loc>
-    <lastmod>2022-03-03T00:00:00+05:30</lastmod>
   </url><url>
     <loc>/post/getting-started/</loc>
     <lastmod>2021-08-09T00:00:00+00:00</lastmod>
