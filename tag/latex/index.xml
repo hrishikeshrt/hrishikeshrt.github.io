@@ -41,7 +41,7 @@ One could always learn to input text in another input scheme, but that may get t
 &lt;p&gt;To define the environments as mentioned earlier, we add the following lines in the preamble.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-latex&#34;&gt;% Define Fonts
 \newfontfamily\textskt[Script=Devanagari]{Sanskrit 2003}
-\newfontfamily\textiast[Script=Latin]{Sanskrit 2003}
+\newfontfamily\textiast{Noto Serif}
 
 % Commands for Devanagari Transliterations
 \newcommand{\skt}[1]{{\textskt{#1}}}
@@ -63,7 +63,7 @@ It should further be noted that we can define new font families and new commands
 
 % Define Fonts
 \newfontfamily\textskt[Script=Devanagari]{Sanskrit 2003}
-\newfontfamily\textiast[Script=Latin]{Sanskrit 2003}
+\newfontfamily\textiast{Noto Serif}
 
 % Commands for Devanagari Transliterations
 \newcommand{\skt}[1]{{\textskt{#1}}}
