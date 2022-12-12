@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>grammar | Hrishikesh Terdalkar</title>
+    <link>/tag/grammar/</link>
+      <atom:link href="/tag/grammar/index.xml" rel="self" type="application/rss+xml" />
+    <description>grammar</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022, Hrishikesh Terdalkar.</copyright><lastBuildDate>Mon, 09 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hube9c3e5f7a27217c9c8565129307f591_12218_512x512_fill_lanczos_center_3.png</url>
+      <title>grammar</title>
+      <link>/tag/grammar/</link>
+    </image>
+    
+    <item>
+      <title>Vaiyyākaraṇaḥ: A Sanskrit Grammar Bot for Telegram</title>
+      <link>/publication/wsc2023demo_2/</link>
+      <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/wsc2023demo_2/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
