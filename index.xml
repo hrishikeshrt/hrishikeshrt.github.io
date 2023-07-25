@@ -64,6 +64,28 @@
     </item>
     
     <item>
+      <title>Chandojñānam</title>
+      <link>/project/chandojnana/</link>
+      <pubDate>Sun, 01 May 2022 09:00:00 +0530</pubDate>
+      <guid>/project/chandojnana/</guid>
+      <description>&lt;p&gt;Majority of the Sanskrit literature is in the form of poetry that adheres to the
+rules of Sanskrit prosody or Chandaḥśāstra, which is the study of Sanskrit
+meters, known as chandas. The purpose of chanda is primarily to add rhythm to
+the text so that it is easier to memorize. Additionally, it also helps in
+preserving the correctness to some extent. Chandojñānam is a web-based Sankrit
+prosodical meter identification and utilization system. In addition to the core
+functionality of identifying meters from Sanskrit text, it provides fuzzy (i.e.,
+approximate and close) matches for text that does not correspond exactly to a
+known metrical pattern. This opens up the scope of a meter based correction of
+erroneous digital corpora. The system supports identification of meters from
+uploaded images by using optical character recognition (OCR) engines in the
+backend. It is also able to process entire text files at a time. The text can be
+processed in two modes, either by treating it as a list of individual lines, or
+as a collection of verses.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Devanagari Transliteration in LaTeX</title>
       <link>/post/devanagari-transliteration-in-latex/</link>
       <pubDate>Tue, 08 Mar 2022 16:30:00 +0530</pubDate>
@@ -647,67 +669,7 @@ we don&amp;rsquo;t have to specify those options again on the subsequent runs.&l
       <link>/project/jnanasangraha/</link>
       <pubDate>Sun, 25 Oct 2020 09:00:00 +0530</pubDate>
       <guid>/project/jnanasangraha/</guid>
-      <description>&lt;p&gt;The word &lt;strong&gt;Jñānasaṅgraha&lt;/strong&gt; (Devanagari: ज्ञानसङ्ग्रह) means &amp;lsquo;collection of knowledge&amp;rsquo;.&lt;/p&gt;
-&lt;p&gt;The Jñānasaṅgrahaḥ system is a platform developed at IIT Kanpur that hosts numerous applications related to Sanskrit.&lt;/p&gt;
-&lt;p&gt;It consists of the following components,&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Saṅkhyāpaddhatiḥ (सङ्ख्यापद्धतिः)&lt;/strong&gt;, a collection of ancient Indian alpha-syllabic numeral systems.
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Kaṭapayādi Saṅkhyā&lt;/strong&gt;, a Kaṭapayādi encoding-decoding system.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Āryabhaṭīya Saṅkhyā&lt;/strong&gt;, an Āryabhaṭīya encoding-decoding system.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Bhūtasaṅkhyā&lt;/strong&gt;, a Bhūtasaṅkhyā encoding-decoding system.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Chandojñānam (छन्दोज्ञानम्)&lt;/strong&gt;, a Sankrit prosodical meter identification system.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Varṇajñānam (वर्णज्ञानम्)&lt;/strong&gt;, a collection of utility functions related to Sanskrit alphabet.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Knowledge Graphs</title>
-      <link>/project/knowledge-graphs/</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/project/knowledge-graphs/</guid>
-      <description>&lt;h2 id=&#34;annotation&#34;&gt;Annotation&lt;/h2&gt;
-&lt;p&gt;One of the ways of constructing a knowledge graph is through manual annotation.
-Languages whose state-of-the-art of NLP is not advanced enough for automatic construction often have to rely on the manual annotation. Benefits of annotation
-include the accuracy and reliability of data, construction of datasets which further help the research in the field of automatic construction of knowledge graphs, etc.&lt;/p&gt;
-&lt;h3 id=&#34;sangrahaka&#34;&gt;Sangrahaka&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Sangrahaka&lt;/em&gt; is a web-based tool for annotating entities and
-relationships from text corpora towards construction of a knowledge graph
-and subsequent querying using templatized natural language questions. It is a language and corpus agnostic tool.  Salient features of the tool include an interface for annotation of entities and relationships, and an interface for querying using templatized natural language queries. The tool is also equipped with an administrators’ interface for managing user access levels, uploading corpora and ontology creation. There are utility scripts for language-specific or corpus-specific needs. The tool can be deployed on the web for distributed annotation by multiple annotators. Besides having a user-friendly interface, it is
-fast, supports customization, and is fault-tolerant on both client and
-server side. No programming knowledge is expected from an annotator.&lt;/p&gt;
-&lt;p&gt;The tool has been used in real-world annotation tasks and has received generally positive reviews.&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-word-art-of-the-comments-received-in-a-survey-of-sangrahaka&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Word-art of the comments received in a survey of *Sangrahaka*&#34; srcset=&#34;
-               /project/knowledge-graphs/wordcloud_hu7bb6a74af19100a90191b4475bc66fb6_140264_e38cf851d86c57599b96315c7a57a14a.png 400w,
-               /project/knowledge-graphs/wordcloud_hu7bb6a74af19100a90191b4475bc66fb6_140264_7f177dd9bf93e21cf5abea1a8fb1b167.png 760w,
-               /project/knowledge-graphs/wordcloud_hu7bb6a74af19100a90191b4475bc66fb6_140264_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;/project/knowledge-graphs/wordcloud_hu7bb6a74af19100a90191b4475bc66fb6_140264_e38cf851d86c57599b96315c7a57a14a.png&#34;
-               width=&#34;760&#34;
-               height=&#34;382&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      Word-art of the comments received in a survey of &lt;em&gt;Sangrahaka&lt;/em&gt;
-    &lt;/figcaption&gt;&lt;/figure&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -728,12 +690,24 @@ server side. No programming knowledge is expected from an annotator.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Sanskrit Question Answering</title>
-      <link>/project/sanskrit/</link>
+      <title>Question-Answering System for Ramayana</title>
+      <link>/project/iks-aicte-ramayana-question-answering/</link>
       <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
-      <guid>/project/sanskrit/</guid>
-      <description>&lt;p&gt;Sanskrit (&lt;em&gt;Saṃskṛta&lt;/em&gt;) enjoys one of the largest and most varied literature in the whole world. Extracting the knowledge from it, however, is a challenging task due to multiple reasons including complexity of the language and paucity of standard natural language processing tools.&lt;/p&gt;
-&lt;p&gt;In this project, we target the problem of building general purpose knowledge graphs (KG) from Sanskrit texts as well as building natural language question answering systems on top of the constructed KGs.&lt;/p&gt;
+      <guid>/project/iks-aicte-ramayana-question-answering/</guid>
+      <description>&lt;p&gt;Sanskrit is one of the most ancient and richest languages in the world. Its
+literature boasts of text spanning every facet of life and contains works on
+mathematics, arts, sciences, religion, philosophy, etc. Unfortunately, the large
+volume of such works and the relative lack of proficiency in the language have
+kept treasures in those text hidden from the common man. Unraveling information
+from these texts in a targeted and systematic manner can not only help in
+enhancing the knowledge systems but can also revive an interest in the language.&lt;/p&gt;
+&lt;p&gt;Sanskrit enjoys one of the largest and most varied literature in the whole
+world. Extracting the knowledge from it, however, is a challenging task due to
+multiple reasons including complexity of the language and paucity of standard
+natural language processing tools. Therefore, we explore the construction of
+knowledge graphs through the process of manual annotation of a Sanskrit text,
+Vālmīki Rāmāyaṇa. We have developed a comprehensive NLP annotation tool,
+Antarlekhaka, which is being used for this large scale annotation task.&lt;/p&gt;
 </description>
     </item>
     

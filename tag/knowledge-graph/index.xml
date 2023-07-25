@@ -31,52 +31,6 @@
     </item>
     
     <item>
-      <title>Knowledge Graphs</title>
-      <link>/project/knowledge-graphs/</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/project/knowledge-graphs/</guid>
-      <description>&lt;h2 id=&#34;annotation&#34;&gt;Annotation&lt;/h2&gt;
-&lt;p&gt;One of the ways of constructing a knowledge graph is through manual annotation.
-Languages whose state-of-the-art of NLP is not advanced enough for automatic construction often have to rely on the manual annotation. Benefits of annotation
-include the accuracy and reliability of data, construction of datasets which further help the research in the field of automatic construction of knowledge graphs, etc.&lt;/p&gt;
-&lt;h3 id=&#34;sangrahaka&#34;&gt;Sangrahaka&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Sangrahaka&lt;/em&gt; is a web-based tool for annotating entities and
-relationships from text corpora towards construction of a knowledge graph
-and subsequent querying using templatized natural language questions. It is a language and corpus agnostic tool.  Salient features of the tool include an interface for annotation of entities and relationships, and an interface for querying using templatized natural language queries. The tool is also equipped with an administrators’ interface for managing user access levels, uploading corpora and ontology creation. There are utility scripts for language-specific or corpus-specific needs. The tool can be deployed on the web for distributed annotation by multiple annotators. Besides having a user-friendly interface, it is
-fast, supports customization, and is fault-tolerant on both client and
-server side. No programming knowledge is expected from an annotator.&lt;/p&gt;
-&lt;p&gt;The tool has been used in real-world annotation tasks and has received generally positive reviews.&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-word-art-of-the-comments-received-in-a-survey-of-sangrahaka&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Word-art of the comments received in a survey of *Sangrahaka*&#34; srcset=&#34;
-               /project/knowledge-graphs/wordcloud_hu7bb6a74af19100a90191b4475bc66fb6_140264_e38cf851d86c57599b96315c7a57a14a.png 400w,
-               /project/knowledge-graphs/wordcloud_hu7bb6a74af19100a90191b4475bc66fb6_140264_7f177dd9bf93e21cf5abea1a8fb1b167.png 760w,
-               /project/knowledge-graphs/wordcloud_hu7bb6a74af19100a90191b4475bc66fb6_140264_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;/project/knowledge-graphs/wordcloud_hu7bb6a74af19100a90191b4475bc66fb6_140264_e38cf851d86c57599b96315c7a57a14a.png&#34;
-               width=&#34;760&#34;
-               height=&#34;382&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      Word-art of the comments received in a survey of &lt;em&gt;Sangrahaka&lt;/em&gt;
-    &lt;/figcaption&gt;&lt;/figure&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Framework for Question-Answering in Sanskrit through Automated Construction of Knowledge Graphs</title>
       <link>/publication/iscls2019/</link>
       <pubDate>Wed, 23 Oct 2019 00:00:00 +0000</pubDate>
@@ -86,12 +40,24 @@ server side. No programming knowledge is expected from an annotator.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Sanskrit Question Answering</title>
-      <link>/project/sanskrit/</link>
+      <title>Question-Answering System for Ramayana</title>
+      <link>/project/iks-aicte-ramayana-question-answering/</link>
       <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
-      <guid>/project/sanskrit/</guid>
-      <description>&lt;p&gt;Sanskrit (&lt;em&gt;Saṃskṛta&lt;/em&gt;) enjoys one of the largest and most varied literature in the whole world. Extracting the knowledge from it, however, is a challenging task due to multiple reasons including complexity of the language and paucity of standard natural language processing tools.&lt;/p&gt;
-&lt;p&gt;In this project, we target the problem of building general purpose knowledge graphs (KG) from Sanskrit texts as well as building natural language question answering systems on top of the constructed KGs.&lt;/p&gt;
+      <guid>/project/iks-aicte-ramayana-question-answering/</guid>
+      <description>&lt;p&gt;Sanskrit is one of the most ancient and richest languages in the world. Its
+literature boasts of text spanning every facet of life and contains works on
+mathematics, arts, sciences, religion, philosophy, etc. Unfortunately, the large
+volume of such works and the relative lack of proficiency in the language have
+kept treasures in those text hidden from the common man. Unraveling information
+from these texts in a targeted and systematic manner can not only help in
+enhancing the knowledge systems but can also revive an interest in the language.&lt;/p&gt;
+&lt;p&gt;Sanskrit enjoys one of the largest and most varied literature in the whole
+world. Extracting the knowledge from it, however, is a challenging task due to
+multiple reasons including complexity of the language and paucity of standard
+natural language processing tools. Therefore, we explore the construction of
+knowledge graphs through the process of manual annotation of a Sanskrit text,
+Vālmīki Rāmāyaṇa. We have developed a comprehensive NLP annotation tool,
+Antarlekhaka, which is being used for this large scale annotation task.&lt;/p&gt;
 </description>
     </item>
     
