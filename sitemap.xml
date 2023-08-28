@@ -3,15 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/publication-type/0/</loc>
-    <lastmod>2023-01-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication-type/1/</loc>
-    <lastmod>2023-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2023-08-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tag/annotation/</loc>
-    <lastmod>2023-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2023-08-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tag/ayurveda/</loc>
+    <lastmod>2023-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2023-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/knowledge-graph/</loc>
+    <lastmod>2023-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication_types/</loc>
+    <lastmod>2023-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/</loc>
+    <lastmod>2023-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/query/</loc>
+    <lastmod>2023-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/sanskrit/</loc>
+    <lastmod>2023-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/nyciks2023/</loc>
+    <lastmod>2023-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication-type/1/</loc>
     <lastmod>2023-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/wsc2023_2/</loc>
@@ -26,16 +50,10 @@
     <loc>/tag/grammar/</loc>
     <lastmod>2023-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2023-01-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tag/jnanasangraha/</loc>
     <lastmod>2023-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/wsc2023demo_1/</loc>
-    <lastmod>2023-01-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tag/knowledge-graph/</loc>
     <lastmod>2023-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tag/library/</loc>
@@ -47,25 +65,13 @@
     <loc>/tag/prosody/</loc>
     <lastmod>2023-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication_types/</loc>
-    <lastmod>2023-01-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/</loc>
-    <lastmod>2023-01-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/publication/wsc2023demo_3/</loc>
-    <lastmod>2023-01-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tag/sanskrit/</loc>
     <lastmod>2023-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/wsc2023_1/</loc>
     <lastmod>2023-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tag/software/</loc>
-    <lastmod>2023-01-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2023-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/wsc2023demo_2/</loc>
