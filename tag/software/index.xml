@@ -5,12 +5,21 @@
     <link>/tag/software/</link>
       <atom:link href="/tag/software/index.xml" rel="self" type="application/rss+xml" />
     <description>software</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023, Hrishikesh Terdalkar.</copyright><lastBuildDate>Mon, 09 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023, Hrishikesh Terdalkar.</copyright><lastBuildDate>Wed, 06 Dec 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/icon_hube9c3e5f7a27217c9c8565129307f591_12218_512x512_fill_lanczos_center_3.png</url>
       <title>software</title>
       <link>/tag/software/</link>
     </image>
+    
+    <item>
+      <title>Antarlekhaka: A Comprehensive Tool for Multi-task Natural Language Annotation</title>
+      <link>/publication/nlposs2023/</link>
+      <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/nlposs2023/</guid>
+      <description>&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
     
     <item>
       <title>Chandojñānam: A Sanskrit Meter Identification and Utilization System</title>
