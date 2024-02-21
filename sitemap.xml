@@ -58,6 +58,38 @@
     <lastmod>2023-08-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>/tag/computational-linguistics/</loc>
+    <lastmod>2023-06-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/knowledge-base/</loc>
+    <lastmod>2023-06-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/natural-language-processing/</loc>
+    <lastmod>2023-06-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/open-source-software/</loc>
+    <lastmod>2023-06-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/question-answering/</loc>
+    <lastmod>2023-06-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/phd/</loc>
+    <lastmod>2023-06-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication-type/thesis/</loc>
+    <lastmod>2023-06-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/tools/</loc>
+    <lastmod>2023-06-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>/publication/wsc2023_2/</loc>
     <lastmod>2023-01-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -216,14 +248,6 @@
   </url><url>
     <loc>/publication/iscls2019demo/</loc>
     <lastmod>2019-10-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/tag/question-answering/</loc>
-    <lastmod>2019-10-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/tag/natural-language-processing/</loc>
-    <lastmod>2019-05-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/project/iks-aicte-ramayana-question-answering/</loc>
