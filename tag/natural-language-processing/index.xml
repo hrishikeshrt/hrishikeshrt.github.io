@@ -31,6 +31,20 @@
     </item>
     
     <item>
+      <title>Annotation Tools</title>
+      <link>/project/annotation-tools/</link>
+      <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
+      <guid>/project/annotation-tools/</guid>
+      <description>&lt;p&gt;Aim of this project is to develop robust annotation tools that are annotator-friendly (intuitive design and interface), programmer-friendly (easy to setup and maintain) and computer-friendly (robust, scalable).&lt;/p&gt;
+&lt;p&gt;We have developed two such tools:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;/publication/fse2021/&#34;&gt;Sangrahaka: A Tool for Annotating and Querying Knowledge Graphs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/publication/nlposs2023/&#34;&gt;Antarlekhaka: A Comprehensive Tool for Multi-task Natural Language Annotation&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Question-Answering System for Ramayana</title>
       <link>/project/iks-aicte-ramayana-question-answering/</link>
       <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
