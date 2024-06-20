@@ -186,6 +186,10 @@
     <lastmod>2022-03-08T16:30:00+05:30</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>/category/software/</loc>
+    <lastmod>2022-03-08T16:30:00+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>/tag/transliteration/</loc>
     <lastmod>2022-03-08T16:30:00+05:30</lastmod>
     <changefreq>weekly</changefreq>
@@ -199,10 +203,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/tag/python/</loc>
-    <lastmod>2022-03-03T00:00:00+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/category/software/</loc>
     <lastmod>2022-03-03T00:00:00+05:30</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -256,9 +256,6 @@
   </url><url>
     <loc>/project/iks-aicte-ramayana-question-answering/</loc>
     <lastmod>2019-05-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/personal/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/event/</loc>
