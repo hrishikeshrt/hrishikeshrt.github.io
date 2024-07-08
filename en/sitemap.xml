@@ -258,6 +258,9 @@
     <lastmod>2019-05-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>/news/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>/event/</loc>
     <changefreq>weekly</changefreq>
   </url>
