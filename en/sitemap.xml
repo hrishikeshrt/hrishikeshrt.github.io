@@ -10,6 +10,10 @@
     <lastmod>2023-12-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>/tag/natural-language-processing/</loc>
+    <lastmod>2023-12-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>/publication-type/paper-conference/</loc>
     <lastmod>2023-12-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -66,14 +70,6 @@
     <lastmod>2023-06-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/tag/natural-language-processing/</loc>
-    <lastmod>2023-06-19T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/tag/open-source-software/</loc>
-    <lastmod>2023-06-19T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>/tag/question-answering/</loc>
     <lastmod>2023-06-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -91,6 +87,10 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/publication/wsc2023_2/</loc>
+    <lastmod>2023-01-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/chatbot/</loc>
     <lastmod>2023-01-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -114,10 +114,6 @@
     <lastmod>2023-01-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/tag/library/</loc>
-    <lastmod>2023-01-09T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>/tag/meter-identification/</loc>
     <lastmod>2023-01-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -130,7 +126,15 @@
     <lastmod>2023-01-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>/tag/python/</loc>
+    <lastmod>2023-01-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>/publication/wsc2023_1/</loc>
+    <lastmod>2023-01-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/telegram/</loc>
     <lastmod>2023-01-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -194,16 +198,8 @@
     <lastmod>2022-03-08T16:30:00+05:30</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/tag/lexicon/</loc>
-    <lastmod>2022-01-28T00:00:00+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>/project/pycdsl/</loc>
     <lastmod>2022-01-28T00:00:00+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/tag/python/</loc>
-    <lastmod>2022-03-03T00:00:00+05:30</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/publication/fse2021/</loc>
