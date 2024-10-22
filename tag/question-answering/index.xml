@@ -5,12 +5,21 @@
     <link>/tag/question-answering/</link>
       <atom:link href="/tag/question-answering/index.xml" rel="self" type="application/rss+xml" />
     <description>question answering</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 19 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 05 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/icon_hube9c3e5f7a27217c9c8565129307f591_12218_512x512_fill_lanczos_center_3.png</url>
       <title>question answering</title>
       <link>/tag/question-answering/</link>
     </image>
+    
+    <item>
+      <title>Aganittyam: Learning Tamil Grammar through Knowledge Graph based Templatized Question Answering</title>
+      <link>/publication/paclic2024/</link>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/paclic2024/</guid>
+      <description>&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
     
     <item>
       <title>Sanskrit Knowledge-based Systems: Annotation and Computational Tools</title>
