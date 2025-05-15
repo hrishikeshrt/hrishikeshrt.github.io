@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>large language models | Hrishikesh Terdalkar</title>
-    <link>/tag/large-language-models/</link>
-      <atom:link href="/tag/large-language-models/index.xml" rel="self" type="application/rss+xml" />
-    <description>large language models</description>
+    <title>classical languages | Hrishikesh Terdalkar</title>
+    <link>/tag/classical-languages/</link>
+      <atom:link href="/tag/classical-languages/index.xml" rel="self" type="application/rss+xml" />
+    <description>classical languages</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 27 Jul 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/icon_hube9c3e5f7a27217c9c8565129307f591_12218_512x512_fill_lanczos_center_3.png</url>
-      <title>large language models</title>
-      <link>/tag/large-language-models/</link>
+      <title>classical languages</title>
+      <link>/tag/classical-languages/</link>
     </image>
     
     <item>
@@ -17,15 +17,6 @@
       <link>/publication/acl2025/</link>
       <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
       <guid>/publication/acl2025/</guid>
-      <description>&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Graph Repairs with Large Language Models: An Empirical Study</title>
-      <link>/publication/gradesnda2025/</link>
-      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>/publication/gradesnda2025/</guid>
       <description>&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
 </description>
     </item>
