@@ -57,27 +57,5 @@
 </description>
     </item>
     
-    <item>
-      <title>Question-Answering System for Ramayana</title>
-      <link>/project/iks-aicte-ramayana-question-answering/</link>
-      <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
-      <guid>/project/iks-aicte-ramayana-question-answering/</guid>
-      <description>&lt;p&gt;Sanskrit is one of the most ancient and richest languages in the world. Its
-literature boasts of text spanning every facet of life and contains works on
-mathematics, arts, sciences, religion, philosophy, etc. Unfortunately, the large
-volume of such works and the relative lack of proficiency in the language have
-kept treasures in those text hidden from the common man. Unraveling information
-from these texts in a targeted and systematic manner can not only help in
-enhancing the knowledge systems but can also revive an interest in the language.&lt;/p&gt;
-&lt;p&gt;Sanskrit enjoys one of the largest and most varied literature in the whole
-world. Extracting the knowledge from it, however, is a challenging task due to
-multiple reasons including complexity of the language and paucity of standard
-natural language processing tools. Therefore, we explore the construction of
-knowledge graphs through the process of manual annotation of a Sanskrit text,
-Vālmīki Rāmāyaṇa. We have developed a comprehensive NLP annotation tool,
-Antarlekhaka, which is being used for this large scale annotation task.&lt;/p&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>

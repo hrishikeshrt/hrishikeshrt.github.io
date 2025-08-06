@@ -109,58 +109,6 @@
     </item>
     
     <item>
-      <title>Chandojñānam</title>
-      <link>/project/chandojnana/</link>
-      <pubDate>Sun, 01 May 2022 09:00:00 +0530</pubDate>
-      <guid>/project/chandojnana/</guid>
-      <description>&lt;p&gt;Majority of the Sanskrit literature is in the form of poetry that adheres to the
-rules of Sanskrit prosody or Chandaḥśāstra, which is the study of Sanskrit
-meters, known as chandas. The purpose of chanda is primarily to add rhythm to
-the text so that it is easier to memorize. Additionally, it also helps in
-preserving the correctness to some extent. Chandojñānam is a web-based Sankrit
-prosodical meter identification and utilization system. In addition to the core
-functionality of identifying meters from Sanskrit text, it provides fuzzy (i.e.,
-approximate and close) matches for text that does not correspond exactly to a
-known metrical pattern. This opens up the scope of a meter based correction of
-erroneous digital corpora. The system supports identification of meters from
-uploaded images by using optical character recognition (OCR) engines in the
-backend. It is also able to process entire text files at a time. The text can be
-processed in two modes, either by treating it as a list of individual lines, or
-as a collection of verses.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>PyCDSL</title>
-      <link>/project/pycdsl/</link>
-      <pubDate>Fri, 28 Jan 2022 00:00:00 +0530</pubDate>
-      <guid>/project/pycdsl/</guid>
-      <description>&lt;p&gt;PyCDSL is a python interface to &lt;a href=&#34;https://www.sanskrit-lexicon.uni-koeln.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cologne Digital Sanskrit Lexicon (CDSL)&lt;/a&gt;.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Free software: GNU General Public License v3&lt;/li&gt;
-&lt;li&gt;Documentation: &lt;a href=&#34;https://pycdsl.readthedocs.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pycdsl.readthedocs.io&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;CDSL Corpus Management (Download, Update, Access)&lt;/li&gt;
-&lt;li&gt;Unified interface to access all dictionaries available at CDSL&lt;/li&gt;
-&lt;li&gt;Console command and REPL interface for easy dictionary search&lt;/li&gt;
-&lt;li&gt;Extensive support for transliteration using &lt;code&gt;indic-transliteration&lt;/code&gt; module&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
-&lt;p&gt;PyCDSL can be used in a &lt;a href=&#34;https://pycdsl.readthedocs.io/en/latest/usage.html#using-pycdsl-in-a-project&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;python project&lt;/a&gt;, as a &lt;a href=&#34;https://pycdsl.readthedocs.io/en/latest/usage.html#using-console-interface-of-pycdsl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;console command&lt;/a&gt; and as an &lt;a href=&#34;https://pycdsl.readthedocs.io/en/latest/usage.html#using-repl-interface-of-pycdsl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;interactive REPL interface&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Jñānasaṅgrahaḥ</title>
-      <link>/project/jnanasangraha/</link>
-      <pubDate>Sun, 25 Oct 2020 09:00:00 +0530</pubDate>
-      <guid>/project/jnanasangraha/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Framework for Question-Answering in Sanskrit through Automated Construction of Knowledge Graphs</title>
       <link>/publication/iscls2019/</link>
       <pubDate>Wed, 23 Oct 2019 00:00:00 +0000</pubDate>
@@ -175,28 +123,6 @@ as a collection of verses.&lt;/p&gt;
       <pubDate>Wed, 23 Oct 2019 00:00:00 +0000</pubDate>
       <guid>/publication/iscls2019demo/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Question-Answering System for Ramayana</title>
-      <link>/project/iks-aicte-ramayana-question-answering/</link>
-      <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
-      <guid>/project/iks-aicte-ramayana-question-answering/</guid>
-      <description>&lt;p&gt;Sanskrit is one of the most ancient and richest languages in the world. Its
-literature boasts of text spanning every facet of life and contains works on
-mathematics, arts, sciences, religion, philosophy, etc. Unfortunately, the large
-volume of such works and the relative lack of proficiency in the language have
-kept treasures in those text hidden from the common man. Unraveling information
-from these texts in a targeted and systematic manner can not only help in
-enhancing the knowledge systems but can also revive an interest in the language.&lt;/p&gt;
-&lt;p&gt;Sanskrit enjoys one of the largest and most varied literature in the whole
-world. Extracting the knowledge from it, however, is a challenging task due to
-multiple reasons including complexity of the language and paucity of standard
-natural language processing tools. Therefore, we explore the construction of
-knowledge graphs through the process of manual annotation of a Sanskrit text,
-Vālmīki Rāmāyaṇa. We have developed a comprehensive NLP annotation tool,
-Antarlekhaka, which is being used for this large scale annotation task.&lt;/p&gt;
-</description>
     </item>
     
   </channel>
