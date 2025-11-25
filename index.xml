@@ -13,6 +13,15 @@
     </image>
     
     <item>
+      <title>BHRAM-IL: A Benchmark for Hallucination Recognition and Assessment in Multiple Indian Languages</title>
+      <link>/publication/bhasha2025/</link>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/bhasha2025/</guid>
+      <description>&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
       <title>A Case Study of Cross-Lingual Zero-Shot Generalization for Classical Languages in LLMs</title>
       <link>/publication/acl2025/</link>
       <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>

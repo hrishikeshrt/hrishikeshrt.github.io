@@ -2,6 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/tag/benchmarking/</loc>
+    <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/bhasha2025/</loc>
+    <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/dataset/</loc>
+    <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/hallucination/</loc>
+    <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/indian-languages/</loc>
+    <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/large-language-models/</loc>
+    <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication-type/paper-conference/</loc>
+    <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication_types/</loc>
+    <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/publication/</loc>
+    <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>/publication/acl2025/</loc>
     <lastmod>2025-07-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -14,27 +54,7 @@
     <lastmod>2025-07-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/tag/large-language-models/</loc>
-    <lastmod>2025-07-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/publication-type/paper-conference/</loc>
-    <lastmod>2025-07-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/publication_types/</loc>
-    <lastmod>2025-07-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/publication/</loc>
-    <lastmod>2025-07-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>/tag/sanskrit/</loc>
-    <lastmod>2025-07-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2025-07-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -59,10 +79,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/tag/annotation/</loc>
-    <lastmod>2024-12-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/tag/dataset/</loc>
     <lastmod>2024-12-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
